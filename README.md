@@ -16,6 +16,18 @@ Define a function called `score_word` that takes in a parameter `word`.
 
 **4.** Inside `score_word`, create a variable called `point_total` and set it to `0`.
 
-*5.* After defining `point_total`, create a for loop that goes through the letters in `word` and adds the point value of each letter to `point_total`.
+**5.** After defining `point_total`, create a for loop that goes through the letters in `word` and adds the point value of each letter to `point_total`.
 
 You should get the point value from the `letter_to_points` dictionary. If the letter you are checking for is not in `letter_to_points`, add 0 to the `point_total`.
+
+**6.** After the for loop is finished, return `point_total`.
+
+**7.** Let’s test this function! Create a variable called `brownie_points` and set it equal to the value returned by the `score_word()` function with an input of `"BROWNIE"`.
+
+**8.** We expect the word BROWNIE to earn 15 points:
+```
+(B + R + O + W + N + I + E)
+ 
+(3 + 1 + 1 + 4 + 4 + 1 + 1) = 15
+```
+Let’s print out `brownie_points` to make sure we got it right.
