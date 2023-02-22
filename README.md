@@ -31,3 +31,17 @@ You should get the point value from the `letter_to_points` dictionary. If the le
 (3 + 1 + 1 + 4 + 4 + 1 + 1) = 15
 ```
 Let’s print out `brownie_points` to make sure we got it right.
+
+### Score a Game
+**9.** Create a dictionary called `player_to_words` that maps players to a list of the words they have played. This table represents the data to transcribe into your dictionary:
+
+**player1**	**wordNerd**	**Lexi Con**	**Prof Reader**
+BLUE	EARTH	ERASER	ZAP
+TENNIS	EYES	BELLY	COMA
+EXIT	MACHINE	HUSKY	PERIOD
+
+**10.** Create an empty dictionary called `player_to_points`.
+
+**11.** Iterate through the items in `player_to_words`. Call each player `player` and each list of words `words`.
+
+Within your loop, create a variable called `player_points` and set it to 0.
