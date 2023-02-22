@@ -45,3 +45,5 @@ EXIT	MACHINE	HUSKY	PERIOD
 **11.** Iterate through the items in `player_to_words`. Call each player `player` and each list of words `words`.
 
 Within your loop, create a variable called `player_points` and set it to 0.
+
+**12.** Within the loop, create another loop that goes through each `word` in `words` and adds the value of `score_word()` with `word` as an input.
