@@ -47,3 +47,16 @@ EXIT	MACHINE	HUSKY	PERIOD
 Within your loop, create a variable called `player_points` and set it to 0.
 
 **12.** Within the loop, create another loop that goes through each `word` in `words` and adds the value of `score_word()` with `word` as an input.
+
+**13.** After the inner loop ends, set the current `player` value to be a key of `player_to_points`, with a value of `player_points`.
+
+**14.** `player_to_points` should now contain the mapping of players to how many points they’ve scored. Print this out to see the current standings for this game!
+
+If you’ve calculated correctly, wordNerd should be winning by 1 point.
+
+## Ideas for Further Practice!
+
+**15.** If you want extended practice, try to implement some of these ideas with the Python you’ve learned:
+- `play_word()` — a function that would take in a player and a word, and add that word to the list of words they’ve played
+- `update_point_totals()` — turn your nested loops into a function that you can call any time a word is played
+- make your `letter_to_points` dictionary able to handle lowercase inputs as well
